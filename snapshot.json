@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-07-04T10:00:10",
+  "generated_at": "2026-07-04T10:30:11",
   "run_date": "2026-07-04",
   "data_as_of": "2026-07-04",
   "data_age_days": 0,
@@ -11,15 +11,15 @@
   "live_intraday": true,
   "assets": {
     "BTC": {
-      "price": 62533.0,
+      "price": 62617.0,
       "regime": "ACCUMULATE",
       "accumulation_verdict": "LIKELY",
       "conviction": "MODERATE",
       "scores": {
-        "cycle": 9.82,
-        "bottom": 62.0,
+        "cycle": 9.83,
+        "bottom": 61.65,
         "top": 0.0,
-        "gate": 0.6925
+        "gate": 0.6888
       },
       "action": {
         "deploy_now_fraction": 0.3231,
@@ -27,7 +27,7 @@
         "reserve_fraction": 0.2,
         "horizon_weeks": 52,
         "anchor": 25224.12,
-        "position_target": 0.52,
+        "position_target": 0.5165,
         "causal_posterior_target": 0.129,
         "causal_prob_further_low": 0.871,
         "causal_posterior_confidence": "high",
@@ -47,18 +47,17 @@
       },
       "diagnostics": {
         "label": "HIGH",
-        "score": 72.0,
+        "score": 80.0,
         "warnings": [
           "daily trigger count (343) collapses to 6 independent events",
-          "moderate price band; size from the range, not the point estimate",
-          "timing window is broad"
+          "moderate price band; size from the range, not the point estimate"
         ],
         "event_n": 6,
         "daily_trigger_n": 343,
         "analogue_n": 3,
-        "analogue_effective_n": 2.9999370042682596,
-        "price_band_pct": 0.4585542378435597,
-        "date_window_days": 93
+        "analogue_effective_n": 2.9999476769628055,
+        "price_band_pct": 0.3745734682493542,
+        "date_window_days": 80
       },
       "event_track_record": {
         "n_events": 6,
@@ -69,15 +68,15 @@
       }
     },
     "ETH": {
-      "price": 1761.66,
+      "price": 1770.14,
       "regime": "ACCUMULATE",
       "accumulation_verdict": "LIKELY",
       "conviction": "MODERATE",
       "scores": {
         "cycle": 11.75,
-        "bottom": 60.37,
+        "bottom": 60.23,
         "top": 0.0,
-        "gate": 0.6711
+        "gate": 0.6697
       },
       "action": {
         "deploy_now_fraction": 0.2827,
@@ -85,7 +84,7 @@
         "reserve_fraction": 0.3,
         "horizon_weeks": 52,
         "anchor": 718.73,
-        "position_target": 0.5037,
+        "position_target": 0.5023,
         "causal_posterior_target": 0.7084,
         "causal_prob_further_low": 0.2916,
         "causal_posterior_confidence": "low",
@@ -113,8 +112,8 @@
         "event_n": 9,
         "daily_trigger_n": 261,
         "analogue_n": 3,
-        "analogue_effective_n": 2.99993845666862,
-        "price_band_pct": 0.3325727383877281,
+        "analogue_effective_n": 2.9999036992259738,
+        "price_band_pct": 0.3302649407271568,
         "date_window_days": 72
       },
       "event_track_record": {
