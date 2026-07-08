@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-07-08T15:30:09",
+  "generated_at": "2026-07-08T16:00:05",
   "run_date": "2026-07-08",
   "data_as_of": "2026-07-08",
   "data_age_days": 0,
@@ -11,7 +11,7 @@
   "live_intraday": true,
   "assets": {
     "BTC": {
-      "price": 62161.0,
+      "price": 62165.0,
       "regime": "ACCUMULATE",
       "accumulation_verdict": "LIKELY",
       "conviction": "MODERATE",
@@ -55,8 +55,8 @@
         "event_n": 6,
         "daily_trigger_n": 343,
         "analogue_n": 3,
-        "analogue_effective_n": 2.9999984650659552,
-        "price_band_pct": 0.4141690175550084,
+        "analogue_effective_n": 2.9999984811618585,
+        "price_band_pct": 0.4141465821188099,
         "date_window_days": 66
       },
       "event_track_record": {
@@ -68,15 +68,15 @@
       }
     },
     "ETH": {
-      "price": 1735.96,
+      "price": 1737.35,
       "regime": "ACCUMULATE",
       "accumulation_verdict": "UNCERTAIN",
       "conviction": "HIGH",
       "scores": {
         "cycle": 11.91,
-        "bottom": 49.51,
+        "bottom": 49.32,
         "top": 0.0,
-        "gate": 0.5543
+        "gate": 0.5522
       },
       "action": {
         "deploy_now_fraction": 0.2962,
@@ -84,7 +84,7 @@
         "reserve_fraction": 0.3,
         "horizon_weeks": 52,
         "anchor": 811.97,
-        "position_target": 0.3951,
+        "position_target": 0.3932,
         "causal_posterior_target": 0.7109,
         "causal_prob_further_low": 0.2891,
         "causal_posterior_confidence": "low",
@@ -111,8 +111,8 @@
         "event_n": 9,
         "daily_trigger_n": 261,
         "analogue_n": 3,
-        "analogue_effective_n": 2.999790212723718,
-        "price_band_pct": 0.28791764505623385,
+        "analogue_effective_n": 2.9997831390802547,
+        "price_band_pct": 0.28757885981429765,
         "date_window_days": 65
       },
       "event_track_record": {
