@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-07-26T14:30:11",
+  "generated_at": "2026-07-26T15:00:11",
   "run_date": "2026-07-26",
   "data_as_of": "2026-07-26",
   "data_age_days": 0,
@@ -11,15 +11,15 @@
   "live_intraday": true,
   "assets": {
     "BTC": {
-      "price": 64642.0,
+      "price": 64688.0,
       "regime": "STRONG_ACCUMULATE",
       "accumulation_verdict": "YES",
       "conviction": "MODERATE",
       "scores": {
-        "cycle": 12.15,
-        "bottom": 73.05,
+        "cycle": 12.16,
+        "bottom": 72.91,
         "top": 0.0,
-        "gate": 0.7975
+        "gate": 0.796
       },
       "action": {
         "deploy_now_fraction": 0.3846,
@@ -27,7 +27,7 @@
         "reserve_fraction": 0.2,
         "horizon_weeks": 52,
         "anchor": 21572.87,
-        "position_target": 0.6305,
+        "position_target": 0.6291,
         "causal_posterior_target": 0.1376,
         "causal_prob_further_low": 0.8624,
         "causal_posterior_confidence": "high",
@@ -56,8 +56,8 @@
         "event_n": 6,
         "daily_trigger_n": 343,
         "analogue_n": 3,
-        "analogue_effective_n": 2.999998991488057,
-        "price_band_pct": 0.4297662881828775,
+        "analogue_effective_n": 2.9999989971681096,
+        "price_band_pct": 0.42954658346923685,
         "date_window_days": 93
       },
       "event_track_record": {
@@ -69,15 +69,15 @@
       }
     },
     "ETH": {
-      "price": 1911.75,
+      "price": 1913.28,
       "regime": "ACCUMULATE",
       "accumulation_verdict": "UNCERTAIN",
       "conviction": "HIGH",
       "scores": {
         "cycle": 18.92,
-        "bottom": 46.25,
+        "bottom": 46.16,
         "top": 0.0,
-        "gate": 0.516
+        "gate": 0.515
       },
       "action": {
         "deploy_now_fraction": 0.3365,
@@ -85,7 +85,7 @@
         "reserve_fraction": 0.3,
         "horizon_weeks": 52,
         "anchor": 812.97,
-        "position_target": 0.3625,
+        "position_target": 0.3616,
         "causal_posterior_target": 0.7148,
         "causal_prob_further_low": 0.2852,
         "causal_posterior_confidence": "low",
@@ -112,8 +112,8 @@
         "event_n": 9,
         "daily_trigger_n": 261,
         "analogue_n": 3,
-        "analogue_effective_n": 2.9999873241736967,
-        "price_band_pct": 0.2716476758120791,
+        "analogue_effective_n": 2.9999869991998565,
+        "price_band_pct": 0.27130872479221385,
         "date_window_days": 67
       },
       "event_track_record": {
