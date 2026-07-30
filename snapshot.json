@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-07-30T11:30:10",
+  "generated_at": "2026-07-30T12:00:10",
   "run_date": "2026-07-30",
   "data_as_of": "2026-07-30",
   "data_age_days": 0,
@@ -11,7 +11,7 @@
   "live_intraday": true,
   "assets": {
     "BTC": {
-      "price": 64661.0,
+      "price": 64664.0,
       "regime": "STRONG_ACCUMULATE",
       "accumulation_verdict": "YES",
       "conviction": "MODERATE",
@@ -19,7 +19,7 @@
         "cycle": 12.35,
         "bottom": 73.62,
         "top": 0.0,
-        "gate": 0.7966
+        "gate": 0.7965
       },
       "action": {
         "deploy_now_fraction": 0.3846,
@@ -55,8 +55,8 @@
         "event_n": 6,
         "daily_trigger_n": 343,
         "analogue_n": 3,
-        "analogue_effective_n": 2.9999692469387647,
-        "price_band_pct": 0.410851309851437,
+        "analogue_effective_n": 2.999969557054277,
+        "price_band_pct": 0.41083692103144914,
         "date_window_days": 68
       },
       "event_track_record": {
@@ -68,15 +68,15 @@
       }
     },
     "ETH": {
-      "price": 1916.12,
+      "price": 1917.28,
       "regime": "ACCUMULATE",
       "accumulation_verdict": "UNCERTAIN",
       "conviction": "HIGH",
       "scores": {
         "cycle": 20.8,
-        "bottom": 42.34,
+        "bottom": 42.29,
         "top": 0.0,
-        "gate": 0.4714
+        "gate": 0.4708
       },
       "action": {
         "deploy_now_fraction": 0.3365,
@@ -84,7 +84,7 @@
         "reserve_fraction": 0.3,
         "horizon_weeks": 52,
         "anchor": 807.79,
-        "position_target": 0.3234,
+        "position_target": 0.3229,
         "causal_posterior_target": 0.7159,
         "causal_prob_further_low": 0.2841,
         "causal_posterior_confidence": "low",
@@ -111,8 +111,8 @@
         "event_n": 9,
         "daily_trigger_n": 261,
         "analogue_n": 3,
-        "analogue_effective_n": 2.9999842835863504,
-        "price_band_pct": 0.27427651248607876,
+        "analogue_effective_n": 2.9999890971173766,
+        "price_band_pct": 0.27402097423134125,
         "date_window_days": 66
       },
       "event_track_record": {
