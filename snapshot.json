@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-14T21:30:07",
+  "generated_at": "2026-08-14T22:00:09",
   "run_date": "2026-08-14",
   "data_as_of": "2026-08-14",
   "data_age_days": 0,
@@ -11,15 +11,15 @@
   "live_intraday": true,
   "assets": {
     "BTC": {
-      "price": 62698.0,
+      "price": 62560.0,
       "regime": "STRONG_ACCUMULATE",
       "accumulation_verdict": "YES",
       "conviction": "HIGH",
       "scores": {
         "cycle": 15.65,
-        "bottom": 70.41,
+        "bottom": 70.67,
         "top": 0.0,
-        "gate": 0.7796
+        "gate": 0.7823
       },
       "action": {
         "deploy_now_fraction": 0.4154,
@@ -27,7 +27,7 @@
         "reserve_fraction": 0.2,
         "horizon_weeks": 52,
         "anchor": 22756.17,
-        "position_target": 0.6041,
+        "position_target": 0.6067,
         "causal_posterior_target": 0.1443,
         "causal_prob_further_low": 0.8557,
         "causal_posterior_confidence": "high",
@@ -55,8 +55,8 @@
         "event_n": 6,
         "daily_trigger_n": 343,
         "analogue_n": 3,
-        "analogue_effective_n": 2.999999653804946,
-        "price_band_pct": 0.3662126439352068,
+        "analogue_effective_n": 2.9999996509381477,
+        "price_band_pct": 0.3668521046084033,
         "date_window_days": 67
       },
       "event_track_record": {
@@ -68,15 +68,15 @@
       }
     },
     "ETH": {
-      "price": 1869.36,
+      "price": 1865.9,
       "regime": "HOLD",
       "accumulation_verdict": "NO",
       "conviction": "MODERATE",
       "scores": {
         "cycle": 28.4,
-        "bottom": 35.69,
+        "bottom": 35.74,
         "top": 0.0,
-        "gate": 0.4317
+        "gate": 0.4323
       },
       "action": {
         "deploy_now_fraction": 0.3635,
@@ -104,15 +104,16 @@
       },
       "diagnostics": {
         "label": "HIGH",
-        "score": 90.0,
+        "score": 80.0,
         "warnings": [
-          "daily trigger count (261) collapses to 9 independent events"
+          "daily trigger count (261) collapses to 9 independent events",
+          "moderate price band; size from the range, not the point estimate"
         ],
         "event_n": 9,
         "daily_trigger_n": 261,
         "analogue_n": 3,
-        "analogue_effective_n": 2.9999738904943762,
-        "price_band_pct": 0.2996777715047242,
+        "analogue_effective_n": 2.999975498067655,
+        "price_band_pct": 0.3027364209782378,
         "date_window_days": 64
       },
       "event_track_record": {
