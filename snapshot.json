@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-18T00:48:28",
+  "generated_at": "2026-08-18T01:39:28",
   "run_date": "2026-08-18",
   "data_as_of": "2026-08-18",
   "data_age_days": 0,
@@ -68,7 +68,7 @@
       }
     },
     "ETH": {
-      "price": 1906.07,
+      "price": 1907.66,
       "regime": "HOLD",
       "accumulation_verdict": "NO",
       "conviction": "MODERATE",
@@ -111,8 +111,8 @@
         "event_n": 9,
         "daily_trigger_n": 261,
         "analogue_n": 3,
-        "analogue_effective_n": 2.9999579780272017,
-        "price_band_pct": 0.29470982229241416,
+        "analogue_effective_n": 2.9999582783168393,
+        "price_band_pct": 0.2943164363459085,
         "date_window_days": 64
       },
       "event_track_record": {
