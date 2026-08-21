@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-21T10:00:06",
+  "generated_at": "2026-08-21T10:30:11",
   "run_date": "2026-08-21",
   "data_as_of": "2026-08-21",
   "data_age_days": 0,
@@ -11,15 +11,15 @@
   "live_intraday": true,
   "assets": {
     "BTC": {
-      "price": 75156.0,
+      "price": 74781.0,
       "regime": "ACCUMULATE",
       "accumulation_verdict": "UNCERTAIN",
       "conviction": "HIGH",
       "scores": {
-        "cycle": 18.37,
-        "bottom": 45.11,
+        "cycle": 18.38,
+        "bottom": 45.42,
         "top": 0.0,
-        "gate": 0.5323
+        "gate": 0.5363
       },
       "action": {
         "deploy_now_fraction": 0.4308,
@@ -27,7 +27,7 @@
         "reserve_fraction": 0.2,
         "horizon_weeks": 52,
         "anchor": 23049.09,
-        "position_target": 0.3511,
+        "position_target": 0.3542,
         "causal_posterior_target": 0.1479,
         "causal_prob_further_low": 0.8521,
         "causal_posterior_confidence": "high",
@@ -46,17 +46,19 @@
         "ana_weight": 0.45
       },
       "diagnostics": {
-        "label": "HIGH",
-        "score": 90.0,
+        "label": "MODERATE",
+        "score": 65.0,
         "warnings": [
-          "daily trigger count (343) collapses to 6 independent events"
+          "daily trigger count (343) collapses to 6 independent events",
+          "moderate price band; size from the range, not the point estimate",
+          "wide timing window; avoid treating the date as a schedule"
         ],
         "event_n": 6,
         "daily_trigger_n": 343,
         "analogue_n": 3,
-        "analogue_effective_n": 2.9999883635859574,
-        "price_band_pct": 0.28575482146572345,
-        "date_window_days": 66
+        "analogue_effective_n": 2.999996489874493,
+        "price_band_pct": 0.4770543633277545,
+        "date_window_days": 206
       },
       "event_track_record": {
         "n_events": 6,
@@ -67,15 +69,15 @@
       }
     },
     "ETH": {
-      "price": 2361.82,
+      "price": 2354.39,
       "regime": "HOLD",
       "accumulation_verdict": "NO",
       "conviction": "MODERATE",
       "scores": {
         "cycle": 31.81,
-        "bottom": 36.61,
+        "bottom": 36.66,
         "top": 0.0,
-        "gate": 0.4805
+        "gate": 0.481
       },
       "action": {
         "deploy_now_fraction": 0.3769,
@@ -111,8 +113,8 @@
         "event_n": 9,
         "daily_trigger_n": 261,
         "analogue_n": 3,
-        "analogue_effective_n": 2.9999929459780073,
-        "price_band_pct": 0.2606140129998855,
+        "analogue_effective_n": 2.9999951950031707,
+        "price_band_pct": 0.26171948253693067,
         "date_window_days": 182
       },
       "event_track_record": {
