@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-22T16:00:34",
+  "generated_at": "2026-08-22T20:45:19",
   "run_date": "2026-08-22",
   "data_as_of": "2026-08-21",
   "data_age_days": 1,
@@ -11,35 +11,35 @@
   "live_intraday": false,
   "assets": {
     "BTC": {
-      "price": 78326.15,
+      "price": 78360.55,
       "regime": "ACCUMULATE",
       "accumulation_verdict": "UNCERTAIN",
       "conviction": "MODERATE",
       "scores": {
-        "cycle": 18.56,
-        "bottom": 41.64,
+        "cycle": 18.44,
+        "bottom": 41.58,
         "top": 0.0,
-        "gate": 0.4926
+        "gate": 0.4921
       },
       "action": {
         "deploy_now_fraction": 0.4308,
         "deploy_fraction": 0.8,
         "reserve_fraction": 0.2,
         "horizon_weeks": 52,
-        "anchor": 26131.18,
-        "position_target": 0.3164,
-        "causal_posterior_target": 0.1481,
-        "causal_prob_further_low": 0.8519,
+        "anchor": 26141.23,
+        "position_target": 0.3158,
+        "causal_posterior_target": 0.1482,
+        "causal_prob_further_low": 0.8518,
         "causal_posterior_confidence": "high",
         "causal_posterior_n_lows": 3,
         "causal_posterior_onchain_weight": 0.5662
       },
       "bottom_prediction": {
-        "price": 43551.97,
+        "price": 43568.72,
         "date": "2026-10-14",
-        "implied_decline": -0.443966,
-        "lo_price": 32928.2,
-        "hi_price": 55184.59,
+        "implied_decline": -0.443997,
+        "lo_price": 32941.56,
+        "hi_price": 55195.63,
         "lo_date": "2026-05-29",
         "hi_date": "2027-01-08",
         "reg_weight": 0.55,
@@ -56,8 +56,8 @@
         "event_n": 6,
         "daily_trigger_n": 343,
         "analogue_n": 3,
-        "analogue_effective_n": 2.999921267807859,
-        "price_band_pct": 0.5110306319474864,
+        "analogue_effective_n": 2.999929392771006,
+        "price_band_pct": 0.5107808722881046,
         "date_window_days": 223
       },
       "event_track_record": {
@@ -75,7 +75,7 @@
       "conviction": "MODERATE",
       "scores": {
         "cycle": 31.79,
-        "bottom": 36.8,
+        "bottom": 36.81,
         "top": 0.0,
         "gate": 0.4851
       },
