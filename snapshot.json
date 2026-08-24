@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-24T06:44:02",
+  "generated_at": "2026-08-24T09:42:30",
   "run_date": "2026-08-24",
-  "data_as_of": "2026-08-22",
-  "data_age_days": 2,
+  "data_as_of": "2026-08-23",
+  "data_age_days": 1,
   "model_version": "12.0.0",
   "model_version_hash": "ea912512bdb515a0",
   "masked": true,
@@ -11,53 +11,53 @@
   "live_intraday": false,
   "assets": {
     "BTC": {
-      "price": 77021.48,
+      "price": 77594.39,
       "regime": "HOLD",
       "accumulation_verdict": "NO",
-      "conviction": "MODERATE",
+      "conviction": "LOW",
       "scores": {
-        "cycle": 19.16,
-        "bottom": 38.38,
+        "cycle": 19.95,
+        "bottom": 35.98,
         "top": 0.0,
-        "gate": 0.4617
+        "gate": 0.441
       },
       "action": {
         "deploy_now_fraction": 0.4462,
         "deploy_fraction": 0.8,
         "reserve_fraction": 0.2,
         "horizon_weeks": 52,
-        "anchor": 27929.23,
+        "anchor": 25988.19,
         "position_target": 0.9,
-        "causal_posterior_target": 0.1485,
-        "causal_prob_further_low": 0.8515,
+        "causal_posterior_target": 0.1489,
+        "causal_prob_further_low": 0.8511,
         "causal_posterior_confidence": "high",
         "causal_posterior_n_lows": 3,
         "causal_posterior_onchain_weight": 0.5662
       },
       "bottom_prediction": {
-        "price": 46548.72,
-        "date": "2026-08-23",
-        "implied_decline": -0.39564,
-        "lo_price": 32474.18,
-        "hi_price": 54802.49,
-        "lo_date": "2026-05-30",
-        "hi_date": "2027-01-08",
+        "price": 43313.66,
+        "date": "2026-10-16",
+        "implied_decline": -0.441794,
+        "lo_price": 32717.78,
+        "hi_price": 54970.69,
+        "lo_date": "2026-05-31",
+        "hi_date": "2027-01-10",
         "reg_weight": 0.55,
         "ana_weight": 0.45
       },
       "diagnostics": {
         "label": "MODERATE",
-        "score": 65.0,
+        "score": 55.0,
         "warnings": [
           "daily trigger count (343) collapses to 6 independent events",
-          "moderate price band; size from the range, not the point estimate",
+          "wide price band; point forecast is low precision",
           "wide timing window; avoid treating the date as a schedule"
         ],
         "event_n": 6,
         "daily_trigger_n": 343,
         "analogue_n": 3,
-        "analogue_effective_n": 2.999985967203604,
-        "price_band_pct": 0.47967614264253766,
+        "analogue_effective_n": 2.9999516854245636,
+        "price_band_pct": 0.5137620595903252,
         "date_window_days": 223
       },
       "event_track_record": {
