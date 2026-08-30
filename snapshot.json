@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-29T23:04:52",
-  "run_date": "2026-08-29",
-  "data_as_of": "2026-08-29",
+  "generated_at": "2026-08-30T00:51:16",
+  "run_date": "2026-08-30",
+  "data_as_of": "2026-08-30",
   "data_age_days": 0,
   "model_version": "12.0.0",
   "model_version_hash": "ea912512bdb515a0",
@@ -11,15 +11,15 @@
   "live_intraday": true,
   "assets": {
     "BTC": {
-      "price": 78120.0,
+      "price": 78103.0,
       "regime": "HOLD",
       "accumulation_verdict": "NO",
       "conviction": "MODERATE",
       "scores": {
-        "cycle": 26.21,
-        "bottom": 29.17,
+        "cycle": 27.22,
+        "bottom": 28.79,
         "top": 0.01,
-        "gate": 0.4065
+        "gate": 0.4088
       },
       "action": {
         "deploy_now_fraction": 0.5166,
@@ -28,8 +28,8 @@
         "horizon_weeks": 52,
         "anchor": 28764.01,
         "position_target": 0.9,
-        "causal_posterior_target": 0.1523,
-        "causal_prob_further_low": 0.8477,
+        "causal_posterior_target": 0.1526,
+        "causal_prob_further_low": 0.8474,
         "causal_posterior_confidence": "high",
         "causal_posterior_n_lows": 3,
         "causal_posterior_onchain_weight": 0.5662
@@ -54,8 +54,8 @@
         "event_n": 6,
         "daily_trigger_n": 343,
         "analogue_n": 3,
-        "analogue_effective_n": 2.9999954816458487,
-        "price_band_pct": 0.23566114633688273,
+        "analogue_effective_n": 2.9999899703521837,
+        "price_band_pct": 0.235314058433898,
         "date_window_days": 66
       },
       "event_track_record": {
@@ -67,15 +67,15 @@
       }
     },
     "ETH": {
-      "price": 2455.59,
+      "price": 2455.2,
       "regime": "HOLD",
       "accumulation_verdict": "NO",
       "conviction": "MODERATE",
       "scores": {
-        "cycle": 36.25,
-        "bottom": 33.99,
+        "cycle": 36.8,
+        "bottom": 33.47,
         "top": 0.0,
-        "gate": 0.4955
+        "gate": 0.4918
       },
       "action": {
         "deploy_now_fraction": 0.5051,
@@ -84,8 +84,8 @@
         "horizon_weeks": 52,
         "anchor": 951.84,
         "position_target": 0.9,
-        "causal_posterior_target": 0.7291,
-        "causal_prob_further_low": 0.2709,
+        "causal_posterior_target": 0.7292,
+        "causal_prob_further_low": 0.2708,
         "causal_posterior_confidence": "low",
         "causal_posterior_n_lows": 2,
         "causal_posterior_onchain_weight": 0.1942
@@ -103,17 +103,16 @@
       },
       "diagnostics": {
         "label": "HIGH",
-        "score": 75.0,
+        "score": 90.0,
         "warnings": [
-          "daily trigger count (261) collapses to 9 independent events",
-          "wide timing window; avoid treating the date as a schedule"
+          "daily trigger count (261) collapses to 9 independent events"
         ],
         "event_n": 9,
         "daily_trigger_n": 261,
         "analogue_n": 3,
-        "analogue_effective_n": 2.9999737770215607,
-        "price_band_pct": 0.20663888898908558,
-        "date_window_days": 183
+        "analogue_effective_n": 2.9999435318539622,
+        "price_band_pct": 0.1748671789828338,
+        "date_window_days": 80
       },
       "event_track_record": {
         "n_events": 9,
