@@ -1,47 +1,47 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-14T16:00:07",
+  "generated_at": "2026-09-14T20:30:30",
   "run_date": "2026-09-14",
-  "data_as_of": "2026-09-14",
-  "data_age_days": 0,
+  "data_as_of": "2026-09-15",
+  "data_age_days": -1,
   "model_version": "12.0.0",
   "model_version_hash": "ea912512bdb515a0",
   "masked": true,
   "static": true,
-  "live_intraday": true,
+  "live_intraday": false,
   "assets": {
     "BTC": {
-      "price": 78983.0,
+      "price": 78017.3,
       "regime": "HOLD",
       "accumulation_verdict": "NO",
       "conviction": "MODERATE",
       "scores": {
-        "cycle": 35.89,
-        "bottom": 27.86,
+        "cycle": 36.15,
+        "bottom": 28.04,
         "top": 0.01,
-        "gate": 0.4187
+        "gate": 0.423
       },
       "action": {
         "deploy_now_fraction": 0.6111,
         "deploy_fraction": 0.8,
         "reserve_fraction": 0.2,
         "horizon_weeks": 52,
-        "anchor": 28610.29,
+        "anchor": 28983.29,
         "position_target": 0.9,
-        "causal_posterior_target": 0.159,
-        "causal_prob_further_low": 0.841,
+        "causal_posterior_target": 0.1589,
+        "causal_prob_further_low": 0.8411,
         "causal_posterior_confidence": "high",
         "causal_posterior_n_lows": 3,
         "causal_posterior_onchain_weight": 0.5662
       },
       "bottom_prediction": {
-        "price": 47683.81,
-        "date": "2026-07-21",
-        "implied_decline": -0.379141,
-        "lo_price": 40695.99,
-        "hi_price": 51839.55,
-        "lo_date": "2026-06-18",
-        "hi_date": "2026-08-23",
+        "price": 48305.48,
+        "date": "2026-07-23",
+        "implied_decline": -0.380836,
+        "lo_price": 41315.69,
+        "hi_price": 52204.12,
+        "lo_date": "2026-06-20",
+        "hi_date": "2026-08-25",
         "reg_weight": 0.55,
         "ana_weight": 0.45
       },
@@ -54,8 +54,8 @@
         "event_n": 6,
         "daily_trigger_n": 343,
         "analogue_n": 3,
-        "analogue_effective_n": 2.9999958740422423,
-        "price_band_pct": 0.21796799927543176,
+        "analogue_effective_n": 2.9999951700991776,
+        "price_band_pct": 0.22540762139706502,
         "date_window_days": 66
       },
       "event_track_record": {
@@ -67,53 +67,52 @@
       }
     },
     "ETH": {
-      "price": 2539.25,
+      "price": 2510.08,
       "regime": "HOLD",
       "accumulation_verdict": "NO",
       "conviction": "MODERATE",
       "scores": {
-        "cycle": 39.85,
-        "bottom": 34.48,
+        "cycle": 39.95,
+        "bottom": 34.63,
         "top": 0.0,
-        "gate": 0.5087
+        "gate": 0.5124
       },
       "action": {
         "deploy_now_fraction": 0.5952,
         "deploy_fraction": 0.7,
         "reserve_fraction": 0.3,
         "horizon_weeks": 52,
-        "anchor": 957.29,
+        "anchor": 963.12,
         "position_target": 0.9,
-        "causal_posterior_target": 0.7308,
-        "causal_prob_further_low": 0.2692,
+        "causal_posterior_target": 0.729,
+        "causal_prob_further_low": 0.271,
         "causal_posterior_confidence": "low",
         "causal_posterior_n_lows": 2,
         "causal_posterior_onchain_weight": 0.1942
       },
       "bottom_prediction": {
-        "price": 1595.48,
-        "date": "2026-08-10",
-        "implied_decline": -0.355616,
-        "lo_price": 1298.46,
-        "hi_price": 1624.88,
-        "lo_date": "2026-05-30",
-        "hi_date": "2026-11-30",
+        "price": 1605.21,
+        "date": "2026-07-02",
+        "implied_decline": -0.360497,
+        "lo_price": 1295.97,
+        "hi_price": 1640.61,
+        "lo_date": "2026-05-28",
+        "hi_date": "2026-08-04",
         "reg_weight": 0.35,
         "ana_weight": 0.65
       },
       "diagnostics": {
         "label": "HIGH",
-        "score": 75.0,
+        "score": 90.0,
         "warnings": [
-          "daily trigger count (261) collapses to 9 independent events",
-          "wide timing window; avoid treating the date as a schedule"
+          "daily trigger count (261) collapses to 9 independent events"
         ],
         "event_n": 9,
         "daily_trigger_n": 261,
         "analogue_n": 3,
-        "analogue_effective_n": 2.9999715393875306,
-        "price_band_pct": 0.20235338612455778,
-        "date_window_days": 183
+        "analogue_effective_n": 2.999953378241982,
+        "price_band_pct": 0.21470477273808838,
+        "date_window_days": 68
       },
       "event_track_record": {
         "n_events": 9,
