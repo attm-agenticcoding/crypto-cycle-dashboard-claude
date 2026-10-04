@@ -1,25 +1,25 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-03T23:43:06",
-  "run_date": "2026-10-03",
-  "data_as_of": "2026-10-03",
+  "generated_at": "2026-10-04T08:59:38",
+  "run_date": "2026-10-04",
+  "data_as_of": "2026-10-04",
   "data_age_days": 0,
   "model_version": "12.0.0",
   "model_version_hash": "ea912512bdb515a0",
   "masked": true,
   "static": true,
-  "live_intraday": false,
+  "live_intraday": true,
   "assets": {
     "BTC": {
-      "price": 84746.87,
+      "price": 85101.0,
       "regime": "HOLD",
       "accumulation_verdict": "NO",
       "conviction": "MODERATE",
       "scores": {
-        "cycle": 40.78,
-        "bottom": 18.55,
-        "top": 0.04,
-        "gate": 0.2973
+        "cycle": 41.1,
+        "bottom": 18.22,
+        "top": 0.05,
+        "gate": 0.2899
       },
       "action": {
         "deploy_now_fraction": 0.7314,
@@ -54,8 +54,8 @@
         "event_n": 6,
         "daily_trigger_n": 343,
         "analogue_n": 3,
-        "analogue_effective_n": 2.9999750423033795,
-        "price_band_pct": 0.1847220947701228,
+        "analogue_effective_n": 2.9999742869797714,
+        "price_band_pct": 0.17763696576751783,
         "date_window_days": 66
       },
       "event_track_record": {
@@ -67,15 +67,15 @@
       }
     },
     "ETH": {
-      "price": 2687.02,
+      "price": 2695.8,
       "regime": "HOLD",
       "accumulation_verdict": "NO",
       "conviction": "MODERATE",
       "scores": {
-        "cycle": 48.91,
-        "bottom": 13.59,
+        "cycle": 49.37,
+        "bottom": 13.94,
         "top": 0.0,
-        "gate": 0.2017
+        "gate": 0.2052
       },
       "action": {
         "deploy_now_fraction": 0.7,
@@ -110,8 +110,8 @@
         "event_n": 9,
         "daily_trigger_n": 261,
         "analogue_n": 3,
-        "analogue_effective_n": 2.999947933172966,
-        "price_band_pct": 0.16019198091204007,
+        "analogue_effective_n": 2.9999637928353726,
+        "price_band_pct": 0.15987853780744862,
         "date_window_days": 64
       },
       "event_track_record": {
