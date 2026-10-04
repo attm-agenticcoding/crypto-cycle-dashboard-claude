@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-03T20:30:21",
+  "generated_at": "2026-10-03T23:43:06",
   "run_date": "2026-10-03",
   "data_as_of": "2026-10-03",
   "data_age_days": 0,
@@ -28,11 +28,11 @@
         "horizon_weeks": 52,
         "anchor": 30829.09,
         "position_target": 0.9,
-        "causal_posterior_target": 0.1682,
-        "causal_prob_further_low": 0.8318,
-        "causal_posterior_confidence": "high",
-        "causal_posterior_n_lows": 3,
-        "causal_posterior_onchain_weight": 0.5662
+        "causal_posterior_target": null,
+        "causal_prob_further_low": null,
+        "causal_posterior_confidence": null,
+        "causal_posterior_n_lows": null,
+        "causal_posterior_onchain_weight": null
       },
       "bottom_prediction": {
         "price": 51381.81,
@@ -54,7 +54,7 @@
         "event_n": 6,
         "daily_trigger_n": 343,
         "analogue_n": 3,
-        "analogue_effective_n": 2.99997504230338,
+        "analogue_effective_n": 2.9999750423033795,
         "price_band_pct": 0.1847220947701228,
         "date_window_days": 66
       },
@@ -84,11 +84,11 @@
         "horizon_weeks": 52,
         "anchor": 1037.65,
         "position_target": 0.9,
-        "causal_posterior_target": 0.736,
-        "causal_prob_further_low": 0.264,
-        "causal_posterior_confidence": "low",
-        "causal_posterior_n_lows": 2,
-        "causal_posterior_onchain_weight": 0.1942
+        "causal_posterior_target": null,
+        "causal_prob_further_low": null,
+        "causal_posterior_confidence": null,
+        "causal_posterior_n_lows": null,
+        "causal_posterior_onchain_weight": null
       },
       "bottom_prediction": {
         "price": 1729.42,
