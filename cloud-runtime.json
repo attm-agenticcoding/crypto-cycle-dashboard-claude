@@ -10,7 +10,7 @@
     "snapshot.json": "ce0916e07f097fd3cf9cce340288d9112f3a294d6d2fd28687d39e0500c0ca1d",
     "history.json": "8400087d138a3ad8be508a15c1842e9dff2f4cc66d97b9314ccf5974721464ab",
     ".nojekyll": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-    "index.html": "154a1d546ff047b77aedc4f910f64322cb0fd1c292b218837c626e2792c18c2b",
+    "index.html": "4826cb9ac69d1b22e0412e73f61aa0a6f18e52574a360fe8ed728c83c36fa50a",
     "reports/deploy_ETH_2019.png": "f342283856c25177c17efbe5df7c33379de027841b284c53212c74d39da13e9d",
     "reports/cmp_dialpost_BTC_2018.png": "ddca0d9ee5dd5f967556095a425449cbaff0a24d51943ade6b727c8a911f27b4",
     "reports/deploy_ETH_2022.png": "c6644b269fa14cd36c1ff66e65049e62f186d7d4e6f8e8c9fd2aa5657a2de03e",
@@ -31,5 +31,13 @@
     "reports/deploy_BTC_2026.png": "9156b8792c144acfc20ca04df242b7c30d86592c6cec729a4c4255126fe2a0a1",
     "reports/deploy_BTC_2018.png": "3b3b163db84b5ecbf66a8d6e26b53b8629e1ad29f06ff69fdf3cf8681ad745f3",
     "reports/deploy_BTC_2019.png": "d81f35fe540b8611a74a2b9f142347151bca94078ea7e35761c6d7a39647a4ae"
+  },
+  "presentation_override": {
+    "scope": "theme-only; original metadata identifies unchanged calculation and data generation",
+    "base_public_revision": "196e0d370d4c1648099012be8a353e62f253fa27",
+    "base_index_sha256": "154a1d546ff047b77aedc4f910f64322cb0fd1c292b218837c626e2792c18c2b",
+    "renderer_source_revision": "fc318e5c8e26ccbf9da81ba45b74aaf508d246d5",
+    "presentation_commit": "44934a36d8ae5114cbd03a7fb56e26ea0dbb2023",
+    "index_sha256": "4826cb9ac69d1b22e0412e73f61aa0a6f18e52574a360fe8ed728c83c36fa50a"
   }
 }
